@@ -9,10 +9,7 @@ const ContactPage = () => {
     <Layout>
       <Head title="Contact" />
       <h1>Contact</h1>
-      <p>This is my contact page. 3..2..1..Contact.</p>
-      <a href="https://google.com" target="_blank">
-        Google
-      </a>
+      <p> My email is <strong>whittingham777@gmail.com </strong> 📨 </p>
     </Layout>
   )
 }

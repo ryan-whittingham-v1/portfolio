@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
 import headerStyles from "./header.module.scss"
+import Headshot from "./headshot"
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -14,11 +15,13 @@ const Header = () => {
   `)
   return (
     <header className={headerStyles.header}>
-      <h1>
-        <Link to="/" className={headerStyles.title}>
+
+      <Link to="/" className={headerStyles.title}>
+        <h1>
           {data.site.siteMetadata.title}
-        </Link>
-      </h1>
+        </h1>
+      </Link>
+
       <nav>
         <ul className={headerStyles.navList}>
           <li>
@@ -43,9 +46,9 @@ const Header = () => {
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
-              to="/about"
+              to="/portfolio"
             >
-              About
+              Portfolio
             </Link>
           </li>
           <li>
@@ -59,7 +62,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
-    </header>
+    </header >
   )
 }
 

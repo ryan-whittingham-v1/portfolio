@@ -1,5 +1,6 @@
 .header {
   padding: 1rem 0 3rem;
+
 }
 
 .nav-item {
@@ -23,6 +24,7 @@
   display: flex;
   list-style-type: none;
   margin: 0;
+  border-bottom: solid;
 }
 
 .active-nav-item {
