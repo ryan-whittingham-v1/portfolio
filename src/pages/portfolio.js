@@ -10,8 +10,8 @@ const AboutPage = () => {
     <Layout>
       <Head title="Portfolio" />
       <h1>Portfolio</h1>
-      <p>I hope to have links to live projects here in the near future. 📓</p>
-      <p>For now you can look at my github page <a href="https://github.com/ryan-whittingham-v1">here.</a></p>
+      <p>Indecisive App: <a href="https://i-just-cant-decide.netlify.com/"></a></p>
+      <p>My github page <a href="https://github.com/ryan-whittingham-v1"></a></p>
     </Layout>
   )
 }
