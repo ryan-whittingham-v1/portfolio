@@ -10,8 +10,8 @@ const AboutPage = () => {
     <Layout>
       <Head title="Portfolio" />
       <h1>Portfolio</h1>
-      <p>Indecisive App: <a href="https://i-just-cant-decide.netlify.com/"></a></p>
-      <p>My github page <a href="https://github.com/ryan-whittingham-v1"></a></p>
+      <p><a href="https://i-just-cant-decide.netlify.com/" target="blank">Randomized item selector app.</a></p>
+      <p><a href="https://github.com/ryan-whittingham-v1" target="blank">My github page.</a></p>
     </Layout>
   )
 }
